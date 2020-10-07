@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  width: 300px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 200px auto;
+  border-radius: 10px;
+  background-color: rgba(85, 83, 85, 0.5);
+}
+
+.wheel {
+  position: relative;
+}
+
+.menu_container{
+  background: white;
+  width: 40%;
+  height: 100%;
+  position: relative;
+  top: -19px;
+}
+.menu_container h3 {
+  text-align: center;
+  padding: 10px 5px 0px 5px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+}
+.menu_list li {
+  list-style: none;
+  list-style-position: outside;
+}
+
+.select{
+  background-color: #2f70e1;
+  color: #dedede;
+  font-weight: bold;
+}
+.unselect{
+  /* background-color: white; */
+  color: black;
+}
